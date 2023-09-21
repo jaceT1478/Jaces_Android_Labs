@@ -5,20 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="ui.MainActivity">
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:text="Hello World!"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:text="@string/button_message" />
+
+
+    <EditText
+        android:id="@+id/myedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editmessage"
+        android:hint="@string/hinttext"/>
 
 
 </LinearLayout>
