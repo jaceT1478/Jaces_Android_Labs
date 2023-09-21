@@ -20,6 +20,33 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:text="@string/button_message" />
+    <Button
+        android:id="@+id/switchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mybutton"
+        android:layout_marginTop="10dp"
+        android:text="Switch" />
+
+    <Button
+        android:id="@+id/checkboxButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switchButton"
+        android:layout_marginTop="10dp"
+        android:text="Checkbox" />
+
+    <Button
+        android:id="@+id/radioButtonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkboxButton"
+        android:layout_marginTop="10dp"
+        android:text="RadioButton" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src=
 
 
     <EditText
