@@ -29,9 +29,6 @@ class MainActivity : AppCompatActivity() {
 
             variableBinding.mybutton.setOnClickListener {
             }
-        model.isSelected.observe(this   , select {
-            variableBinding.checkboxButton.setOnClickListener();
-        })
 
 
 
