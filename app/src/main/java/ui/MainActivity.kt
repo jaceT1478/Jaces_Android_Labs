@@ -2,12 +2,14 @@ package ui
 
 import algonquin_cst2355.toul0023.MainViewModel
 import algonquin_cst2355.toul0023.databinding.ActivityMainBinding
+import android.R
 import android.os.Bundle
-import android.widget.AdapterView.OnItemSelectedListener
+import android.view.View
+import android.widget.ImageButton
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import kotlinx.coroutines.selects.select
 
 
 class MainActivity : AppCompatActivity() {
@@ -28,7 +30,18 @@ class MainActivity : AppCompatActivity() {
             variableBinding.textview.text = newText
 
             variableBinding.mybutton.setOnClickListener {
+
             }
+            val logoAlgonquin = findViewById<ImageButton>(R.id.widget_frame)
+
+            logoAlgonquin.setOnClickListener(View.OnClickListener {
+                val width = it.width
+                val height = it.height
+
+
+                val toastMessage = "The width = $width and height = $height"
+                Toast.makeText(applicationContext, toastMessage, Toast.LENGTH_SHORT).show()
+                })
 
 
 
