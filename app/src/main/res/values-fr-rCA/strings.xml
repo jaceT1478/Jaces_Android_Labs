@@ -3,4 +3,5 @@
     <string name="app_name">Jace\'s Android Labs</string>
     <string name="Hello_message">Bonjour tout le monde!</string>
     <string name="button_message">"je suis un bouton "</string>
+    <string name="spin_flag" />
 </resources>

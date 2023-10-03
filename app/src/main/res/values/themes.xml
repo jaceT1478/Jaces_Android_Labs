@@ -4,6 +4,5 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-    <Item name="android:textcolor">@color/my_text</Item>
     <style name="Theme.JacesAndroidLabs" parent="Base.Theme.JacesAndroidLabs" />
 </resources>
