@@ -19,4 +19,11 @@ public class Chat_messages {
     @PrimaryKey (autoGenerate = true)
     @ColumnInfo(name = "id")
     public int id;
+
+    public static Chat_messages get(int adapterPosition) {
+        return null;
+    }
+
+    public static void remove(int adapterPosition) {
+    }
 }
